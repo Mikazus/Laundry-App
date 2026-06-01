@@ -38,16 +38,12 @@ laundry-app/
 │       ├── config/
 │       │   └── DBConnection.java   ← Konfigurasi koneksi JDBC
 │       ├── model/
-│       │   ├── Pelanggan.java      ← (dikerjakan tim)
+│       │   ├── Pelanggan.java      
 │       │   ├── Layanan.java
 │       │   ├── Transaksi.java
 │       │   └── DetailTransaksi.java
-│       ├── dao/
-│       │   ├── PelangganDAO.java   ← (dikerjakan tim)
-│       │   ├── LayananDAO.java
-│       │   └── TransaksiDAO.java
 │       └── ui/
-│           └── MainApp.java        ← Entry point (dikerjakan tim)
+│           └── MainApp.java        ← Entry point 
 ├── pom.xml                     ← Maven dependencies (JDBC sudah ada)
 ├── .gitignore
 └── README.md
@@ -59,14 +55,14 @@ laundry-app/
 
 Pastikan semua tools berikut sudah terinstall sebelum clone repo:
 
-| Tool | Versi Min | Download |
-|------|-----------|---------|
-| JDK | 17+ | https://adoptium.net |
-| IntelliJ IDEA | 2023+ | https://www.jetbrains.com/idea |
-| SQL Server | 2019+ | https://www.microsoft.com/sql-server |
+| Tool                              | Versi Min | Download |
+|-----------------------------------|-----------|---------|
+| JDK                               | 17+ | https://adoptium.net |
+| IntelliJ IDEA /Netbeans           | 2023+ | https://www.jetbrains.com/idea |
+| SQL Server                        | 2019+ | https://www.microsoft.com/sql-server |
 | SQL Server Management Studio (SSMS) | 19+ | https://aka.ms/ssmsfullsetup |
-| Git | Latest | https://git-scm.com |
-| Maven | 3.8+ | (bisa pakai bawaan IntelliJ) |
+| Git                               | Latest | https://git-scm.com |
+| Maven                             | 3.8+ | (bisa pakai bawaan IntelliJ) |
 
 > **Catatan:** SQL Server Express (gratis) sudah cukup untuk proyek ini.
 
@@ -77,7 +73,7 @@ Pastikan semua tools berikut sudah terinstall sebelum clone repo:
 ### LANGKAH 1 — Clone Repositori
 
 ```bash
-git clone https://github.com/<username>/<nama-repo>.git
+git clone https://github.com/Mikazus/Laundry-App.git
 cd laundry-app
 ```
 
