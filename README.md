@@ -55,7 +55,7 @@ laundry-app/
 
 ---
 
-## ⚙️ Prasyarat (Prerequisites)
+## ⚙️ Prerequisites
 
 Pastikan semua tools berikut sudah terinstall sebelum clone repo:
 
@@ -72,7 +72,7 @@ Pastikan semua tools berikut sudah terinstall sebelum clone repo:
 
 ---
 
-## 🚀 Setup — Langkah demi Langkah
+## 🚀 Setup
 
 ### LANGKAH 1 — Clone Repositori
 
