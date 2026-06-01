@@ -19,15 +19,15 @@ import java.sql.SQLException;
 public class DBConnection {
 
     // ─── KONFIGURASI — SESUAIKAN DI SINI ───────────────────────────
-    private static final String DB_SERVER   = "jdbc:sqlserver://localhost:1433;databaseName=PAIS_LAUNDRY;encrypt=true;trustServerCertificate=true";      // atau IP server
+    private static final String DB_SERVER   = "localhost";
     private static final String DB_NAME     = "PAIS_LAUNDRY";
-    private static final String DB_USER     = "paislaundry";             // username SQL Server
-    private static final String DB_PASSWORD = "pais123"; // ganti password Anda
+    private static final String DB_USER     = "paislaundry";
+    private static final String DB_PASSWORD = "pais123";
     private static final int    DB_PORT     = 1433;
     // ────────────────────────────────────────────────────────────────
 
     private static final String URL =
-        "jdbc:sqlserver://" + DB_SERVER + "\\\\" + DB_INSTANCE + ":" + DB_PORT + ";" +
+        "jdbc:sqlserver://" + DB_SERVER + ":" + DB_PORT + ";" +
         "databaseName=" + DB_NAME + ";" +
         "encrypt=false;" +
         "trustServerCertificate=true;";
